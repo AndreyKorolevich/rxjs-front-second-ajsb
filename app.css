@@ -1,0 +1,63 @@
+.widget{
+  width: 700px;
+  height: 600px;
+  overflow: auto;
+  border: 2px solid;
+  border-radius: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.name{
+  font-size: 24px;
+}
+
+.post {
+  border: 1px solid;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.info{
+  font-weight: bold;
+}
+
+.img{
+  width: 90%;
+}
+
+.last {
+  color: goldenrod;
+  font-size: 18px;
+}
+
+.comment {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.comment-avatar {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.comment-main {
+  width: 60%;
+  font-weight: bold;
+}
+
